@@ -1,6 +1,6 @@
 
-input_string = input("Enter a string: ")
-modified_string = input_string.replace('a', '$')
+i_s= input("Enter a string: ")
+m_s = i_s.replace('a', '$')
 
 
-print(f"Modified string: {modified_string}")
+print("Modified string:",m_s)
