@@ -1,11 +1,7 @@
-def string_length(s):
-    count = 0
-    for char in s:
-        count += 1
-    return count
+s = input('Enter a string: ')
 
+count = 0
+for char in s:
+    count += 1
 
-sample_string = input('enter a string')
-
-
-print(string_length(sample_string))
+print(count)
