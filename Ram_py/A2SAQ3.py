@@ -1,7 +1,6 @@
-def get_first_last_chars(s):
-    return s[:2] + s[-2:] if len(s) >= 2 else ""
+s = input('Enter a string: ')
 
-
-sample_string = input('enter a string')
-
-print(get_first_last_chars(sample_string))
+if len(s) >= 2:
+    print(s[:2] + s[-2:])
+else:
+    print("")
