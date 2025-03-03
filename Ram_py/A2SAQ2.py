@@ -1,5 +1,9 @@
 from collections import Counter
 
-s = input('Enter a string: ')
-for char, freq in Counter(s).items():
-    print("Character: {char}, Frequency: {freq}")
+sample_string = input('enter a string')
+
+char_frequency = Counter(sample_string)
+
+
+for char, freq in char_frequency.items():
+    print(f"Character: {char}, Frequency: {freq}")
